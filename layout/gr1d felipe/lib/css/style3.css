@@ -1,0 +1,201 @@
+#planos {
+	 padding: 0 30px;
+   	 margin-bottom: 30px;
+}
+
+#planos h1 {
+	margin-bottom: 30px;
+}
+
+.planos-card {
+	width: 415px;
+	margin: 40px auto;
+    box-shadow: 0 0 3px #000;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.valor {
+	width: 100%;
+	background: #006DB2;
+    border-radius: 5px 5px 0 0;
+
+
+}
+
+.valor #valor-info {
+	width: 60%;
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #fff;
+
+
+}
+.valor #valor-info {
+	font-family: "roboto-bold";
+
+}
+.valor #valor-info  p, i, span, div {
+	position: relative;
+}
+.valor #valor-info  p {
+	font-size: 22px;
+	top: 50px;
+}
+ .valor #valor-info span {
+ 	font-size: 85px;
+ 	top: 10px;
+ 	left: 30px;
+ }
+
+  .valor #valor-info i {
+  	top: -40px;
+  	font-size: 35px;
+  	left: 30px;
+  }
+
+  .valor #valor-info div {
+  	left: 140px;
+  	top: -55px;
+  	font-size: 25px;
+ 	display: inline;
+
+  }
+
+  .info {
+  	margin-top: 30px;
+  }
+
+  .info p {
+  	margin:15px 0 15px 15px;
+  	font-size: 18px;
+
+  }
+
+  .info ul {
+  	font-size: 16px;
+    list-style: none
+
+  }
+
+  .info ul li {
+  	margin: 8px 0 8px 15px;
+  }
+
+.info ul li:before {
+  content: '\2022';
+  margin: 0 2px;
+  color: #e74c3c /* cor da bolinha */
+ }
+
+.info .btn {
+	text-align:center;
+}
+ 
+
+ .info .btn button {
+ 	width: 167px;
+ 	height: 53px;
+ 	color: #fff;
+ 	font-size: 25px;
+    background:#006DB2;
+    border: none;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom:20px;
+ }
+
+
+@media (max-width: 768px) {
+    
+}
+
+
+/* CELULAR */
+@media (max-width: 767px) {
+    
+}   
+@media (max-width: 575px) {
+
+ #planos h1{
+        margin-left: 47px;
+    }
+   
+}  
+@media (max-width: 480px) {
+ .planos-card{
+ 	width: 400px;
+ }
+ #planos h1 {
+	margin-bottom: 30px;
+	font-size: 18px;
+	margin-left: 7px;
+
+}
+
+ .valor #valor-info {
+	font-family: "roboto-bold";
+	left: -30px;
+}
+
+
+    
+} 
+@media (max-width: 380px) {
+    .planos-card{
+ 	width: 315px;
+ }
+
+ .valor #valor-info {
+	font-family: "roboto-bold";
+	left: -30px;
+}
+
+	.valor #valor-info div {
+ 	display: inline;
+ 	}
+
+}  
+@media (max-width: 320px) {
+
+
+	.planos-card{
+ 	width: 275px;
+
+ }
+
+#planos {
+	padding: 10px; 
+}
+ 
+#planos h1 {
+	margin-left: 15px;
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+ .valor{
+ 	width: 275px;
+ }
+
+ .valor #valor-info  div {
+ 	display: inline;
+ }
+
+ .valor #valor-info {
+	left: -40px;
+
+}
+
+ .valor #valor-info i {
+ 	font-size: 18px;
+ }
+
+ .valor #valor-info span {
+ 	font-size: 80px;
+ } 
+
+
+}
+

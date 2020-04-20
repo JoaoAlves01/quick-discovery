@@ -1,0 +1,137 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+@font-face{
+    font-display: swap;  
+    src: url("../../fontes/Poppins-Regular.ttf");
+    font-size: 1.5rem; 
+    font-family: "roboto-regular";
+}
+
+@font-face{
+    font-display: swap;  
+    src: url("../../fontes/Poppins-Bold.ttf");
+    font-size: 1.5rem;
+    font-family: "roboto-bold";
+}
+
+body{
+	font-family: "roboto-regular";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+
+@media (max-width: 991px){
+
+
+  #nav {
+    height: 40px;
+    background-color: #006DB2;
+    padding: 0 30px;
+    margin-bottom: 30px;
+  }
+
+
+ #envelope #nav i {
+    text-align: center;
+    color: #fff;
+    margin-left: 90%;
+    font-size: 35px;
+    }
+
+  
+#eventos {
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+  
+
+   #eventos h1 {
+    margin-bottom: 30px;
+   }
+
+
+  .card {
+    width: 415px;
+    margin: 0 auto;
+    text-align:center;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px #000;
+    margin-bottom: 35px;
+
+  }
+
+  .card span {
+    color: #FF6262;
+  }
+
+  .card button {
+    width: 86px;
+    height: 45px;
+    margin-top:15px;
+    margin-bottom:15px;
+    color: #fff;
+    background:#006DB2;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .card button i {
+    font-size: 25px;
+  }
+
+}
+@media (max-width: 768px) {
+    
+}
+
+
+/* CELULAR */
+@media (max-width: 767px) {
+    
+}   
+@media (max-width: 575px) {
+    #eventos h1{
+        margin-left: 47px;
+    }
+    
+}  
+@media (max-width: 480px) {
+    #nav i {
+    margin-left: 390px;
+    }
+    
+} 
+@media (max-width: 380px) {
+    .card {
+    width: 315px;
+    margin: 0 auto;
+    text-align:center;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px #000;
+    margin-bottom: 35px;
+  }
+
+     #nav i {
+     margin-left: 290px;
+    }
+}  
+@media (max-width: 320px) {
+.card {
+    width: 260px;
+
+  }
+
+#eventos .eventos-card .card img {
+    height: 128px;
+}
+
+
+#nav i {
+   margin-left: 235px;
+    }
+}
